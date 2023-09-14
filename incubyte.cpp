@@ -239,6 +239,8 @@ int main(){
 
     return 0;
 
+    
+
 }
 
 
@@ -247,7 +249,7 @@ int main(){
     *************************************OUTPUT****************************************
 
 
-    
+
     *************************************INPUT1****************************************
     PS D:\DS\Placements\Codes\Incubyte> cd "d:\DS\Placements\Codes\Incubyte\\incubyte }
     Enter initial coordinates(x,y,z)
