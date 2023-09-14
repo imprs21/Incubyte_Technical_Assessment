@@ -75,7 +75,7 @@ int main(){
 
     ch3 obj(a,b,c,ch);
 
-    cout<<"Enter commnads and enter 0 after inputting all commands to terminate taking input : "<<endl;
+    cout<<"Enter commnads and 0 to end taking commnads : "<<endl;
 
     vector<char> commands;
 
