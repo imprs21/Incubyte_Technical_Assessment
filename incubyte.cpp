@@ -92,7 +92,7 @@ int main(){
 
     //Taking initial direction
     char ch,temp;
-    cout<<"Enter initial direction : ";
+    cout<<"Enter initial direction (from N,S,E,W,U,D) in uppercase as a single character : ";
     cin>>ch;
 
     //Creating object of the custom datatype ch3
@@ -110,8 +110,11 @@ int main(){
             break;
         }
 
-        else{
+        else if(ch=='f' || ch=='b' || ch=='u' || ch=='d'|| ch=='l' || ch=='r'){
             commands.push_back(ch);
+        }
+        else{
+            cout<<"\nNot a valid command"<<endl
         }
     }
 
@@ -223,6 +226,7 @@ int main(){
 
         
         default:
+            cout<<"\nInvalid Command"<<endl;
             break;
         }
 
@@ -239,7 +243,7 @@ int main(){
 
     return 0;
 
-    
+
 
 }
 
