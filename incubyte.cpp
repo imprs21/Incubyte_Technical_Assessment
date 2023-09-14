@@ -114,7 +114,7 @@ int main(){
             commands.push_back(ch);
         }
         else{
-            cout<<"\nNot a valid command"<<endl
+            cout<<"\nNot a valid command"<<endl;
         }
     }
 
