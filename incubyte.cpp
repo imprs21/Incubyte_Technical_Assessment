@@ -226,7 +226,6 @@ int main(){
 
         
         default:
-            cout<<"\nInvalid Command"<<endl;
             break;
         }
 
